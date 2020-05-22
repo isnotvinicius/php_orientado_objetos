@@ -32,7 +32,7 @@ se tentarmos modificar o atributo fora da classe não poderemos realizar a opera
 - Os métodos que definem o valor em um atributo privado são chamados de Métodos Setter.
 
 
-## Método construtor e Destrutor
+## Método Construtor e Destrutor
 
 - O método construtor é feito com "public function __construct()", este método é chamado no momento em que a classe é construida com o termo "new".
 
