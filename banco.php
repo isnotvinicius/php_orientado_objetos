@@ -2,7 +2,7 @@
 
 require_once 'autoload.php';
 
-use Alura\Banco\Modelo\Conta\{Conta, Titular};
+use Alura\Banco\Modelo\Conta\{Conta, ContaPoupanca, Titular};
 use Alura\Banco\Modelo\{CPF, Endereco};
 
 $endereco = new Endereco('Petrópolis', 'um bairro', 'minha rua', '71B');
