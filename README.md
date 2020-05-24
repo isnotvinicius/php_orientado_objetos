@@ -102,3 +102,28 @@ titular dentro da classe Conta e no programa principal instânciamos o objeto co
 que identifica o sistema que está sendo utilizado e faz o replace corretamente para que o caminho do arquivo seja encontrado.
 
 - Para finalizar adicionamos o .php na string do caminho utilizando "$NomeDaString .= '.php';
+
+
+## Sobrescrita de métodos
+
+- A Sobrescrita de métodos é quando nós temos o mesmo método em classes diferentes mas com funcionalidades diferentes.
+No exemplo estamos utilizando conta corrente e conta poupança, as duas realizam saque mas a tarifa para elas é diferente, neste caso
+a sobrescrita funciona bem, implementamos o mesmo método mudando apenas o valor da tarifa.
+
+
+## Métodos Abstratos | Classes Abstratas
+
+- Uma classe abstrata é uma classe que não está completa. Ela precisa de outras classes, que extendem ela, para completá-la.
+
+- Uma classe abstrata não pode ser instânciada.
+
+- Uma classe abstrata precisa de pelo menos um método abstrato para ser criada.
+
+- Métodos abstratos são métodos pertencentes a uma classe abstrata e que não são implementados, implementamos eles apenas nas classes filhas.
+
+- Quando temos um método abstrato obrigatóriamente temos que implementar ele em todas as classes filhas.
+
+
+## Polimorfismo
+
+- É quando duas ou mais classes derivadas da mesma superclasse podem invocar métodos que têm a mesma assinatura, mas comportamentos distintos.
