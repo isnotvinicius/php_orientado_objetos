@@ -26,7 +26,7 @@ abstract class Funcionario extends Pessoa
 
     public function alteraNome(string $nome): void
     {
-        $this->validaNomeTitular($nome);
+        $this->validaNome($nome);
         $this->nome = $nome;
     }
 
@@ -40,8 +40,5 @@ abstract class Funcionario extends Pessoa
         $this->salario += $valorAumentar;
     }
 
-    public function calculaBonificacao(): float
-    {
-        return $this->salario * 0.1;
-    }
+    abstract public function calculaBonificacao(): float;
 }
