@@ -82,6 +82,9 @@ titular dentro da classe Conta e no programa principal instânciamos o objeto co
 
 - Utilizamos o termo "parent" para chamar o construtor da classe mãe ao criar o objeto de uma classe filha.
 
+- Quando queremos impedir que uma classe seja extendida por outras classes para evitar problemas podemos adicionar "final" na frente de class.
+É possível fazer isso com métodos também para evitar a sobrescrita d eum método.
+
 
 ## Namespace/use
 
@@ -127,3 +130,26 @@ a sobrescrita funciona bem, implementamos o mesmo método mudando apenas o valor
 ## Polimorfismo
 
 - É quando duas ou mais classes derivadas da mesma superclasse podem invocar métodos que têm a mesma assinatura, mas comportamentos distintos.
+
+
+## Interface
+
+- Uma interface é uma classe abstrata onde todos os métodos dela são abstratos.
+
+- Todas as classes que implementam uma interface precisam ter TODOS os métodos da interface.
+
+- É uma maneira de contornar a falta de herança múltipla, que não existe em php mas existe em linguagens como c++.
+
+
+## Métodos Mágicos
+
+- Métodos mágicos sempre possuem __ no inicio do seu nome. "__nomeMetodo()".
+
+- No método __toString() podemos formatar uma string como quisermos e na hora de exibir basta chamar o método.
+
+
+## Traits
+
+- É uma forma do php pegar um código e injetar em uma classe.
+
+- Para utilizar a trait basta digitar "use + Nome_Arquivo_Trait" dentro do corpo da classe, isto fará com que os códigos na trait sejam colados dentro da classe.
