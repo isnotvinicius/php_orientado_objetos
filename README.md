@@ -83,7 +83,7 @@ titular dentro da classe Conta e no programa principal instânciamos o objeto co
 - Utilizamos o termo "parent" para chamar o construtor da classe mãe ao criar o objeto de uma classe filha.
 
 - Quando queremos impedir que uma classe seja extendida por outras classes para evitar problemas podemos adicionar "final" na frente de class.
-É possível fazer isso com métodos também para evitar a sobrescrita d eum método.
+É possível fazer isso com métodos também para evitar a sobrescrita de um método.
 
 
 ## Namespace/use
